@@ -1,5 +1,15 @@
 # KrakenPrices
 
+Task description:
+
+A small application needs to be created that will allow viewing real-time prices from the Kraken crypto exchange. The application should display all current prices from this exchange.
+Requirements:
+  * prices must be retrieved using WebSocket connection
+  * using REST API to fetch prices is not allowed, and making request at the moment of page load is also not acceptable
+  * the REST API should be used only to fetch the list of trading pairs
+  * application needs to be implemented in Elixir, using Phoenix framework
+  * no database should be used 
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
