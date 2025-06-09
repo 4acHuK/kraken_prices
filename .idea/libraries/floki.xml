@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="floki" type="mix">
+    <CLASSES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/floki/lib" />
+      <root url="file://$PROJECT_DIR$/deps/floki/src" />
+    </SOURCES>
+  </library>
+</component>

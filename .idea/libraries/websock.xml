@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="websock" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/websock/ebin" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/websock/lib" />
+    </SOURCES>
+  </library>
+</component>
