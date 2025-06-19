@@ -5,8 +5,9 @@ defmodule KrakenPrices.Services.PriceSocketService do
 
   use WebSockex
 
-  def start_link(_) do
-    WebSockex.start_link("wss://ws.kraken.com/v2", __MODULE__, nil)
+  def start_link(opts \\ []) do
+    client = Keyword.get(opts, :websocket_client, WebSockex)
+    client.start_link("wss://ws.kraken.com/v2", __MODULE__, nil)
   end
 
   @impl true

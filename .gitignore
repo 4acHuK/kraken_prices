@@ -35,4 +35,6 @@ kraken_prices-*.tar
 npm-debug.log
 /assets/node_modules/
 
+# Ignore IDE-specific files
 .idea/
+*.iml

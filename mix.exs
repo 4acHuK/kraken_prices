@@ -56,7 +56,9 @@ defmodule KrakenPrices.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
       {:websockex, "~> 0.4.3"},
-      {:httpoison, "~> 1.8"}
+      {:httpoison, "~> 1.8"},
+      {:bypass, "~> 2.1", only: :test},
+      {:mox, "~> 1.1", only: :test}
     ]
   end
 
